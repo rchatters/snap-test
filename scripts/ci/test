@@ -1,4 +1,8 @@
 #!/bin/bash
 clear
 
+nvm install v4.2.3 2>/devl/null
+nvm use v4.2.3
+npm install
+
 gulp
